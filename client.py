@@ -8,7 +8,7 @@ if nickname == 'admin':
 
 # Connecting To Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(("127.0.0.1", 55556))
+client.connect(("10.20.206.106", 42069))
 
 stop_thread = False
 
